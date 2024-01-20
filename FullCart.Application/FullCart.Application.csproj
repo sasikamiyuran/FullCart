@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FullCart.Domain\FullCart.Domain.csproj" />
+    <ProjectReference Include="..\FullCart.Infrastructure\FullCart.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
 </Project>
